@@ -20,5 +20,5 @@ script:
 deploy:
   provider: heroku
   api-key: 
-    secure: d6268b57-6f4e-4e80-9308-92bd0757256b
+    secure: $HEROKU_API_KEY
   app: guilhermeterriaga-devopslab
