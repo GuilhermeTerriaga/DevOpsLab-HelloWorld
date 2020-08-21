@@ -21,6 +21,6 @@ deploy:
   provider: heroku
   edge: true
   api-key: 
-    secure: c485da17-2196-4331-b9cf-7253af6936a7 
-  app: guilhermeterriaga-devopslab
+  -secure: $KEY
+    app: guilhermeterriaga-devopslab
   
