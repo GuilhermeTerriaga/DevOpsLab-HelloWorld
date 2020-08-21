@@ -20,7 +20,7 @@ script:
 deploy:
   provider: heroku
   edge: true
-  api-key: 
-  -secure: $KEY
+  api_key: 
+  secure: $KEY
     app: guilhermeterriaga-devopslab
   
