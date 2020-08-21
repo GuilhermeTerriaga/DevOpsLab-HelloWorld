@@ -21,6 +21,6 @@ deploy:
   provider: heroku
   edge: true
   api-key: 
-    secure: $HEROKU_KEY
+    secure: $KEY
   app: guilhermeterriaga-devopslab
   
